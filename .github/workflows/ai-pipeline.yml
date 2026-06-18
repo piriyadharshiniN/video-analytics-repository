@@ -28,4 +28,4 @@ jobs:
 
     - name: Run AI Stream Integration Tests
       run: |
-        pytest test_ai.py
+        python -m pytest test_ai.py
