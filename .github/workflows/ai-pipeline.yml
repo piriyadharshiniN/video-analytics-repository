@@ -29,3 +29,5 @@ jobs:
     - name: Run AI Stream Integration Tests
       run: |
         python -m pytest test_ai.py
+        pip install pytest opencv-python-headless
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
